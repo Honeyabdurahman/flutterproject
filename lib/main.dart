@@ -11,7 +11,10 @@ class CSCRecessTerm extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
         home: Scaffold(
-            appBar: AppBar(title: Text("CSC Day Class")),
+            appBar: AppBar(
+              title: Text("CSC Day Class"),
+              backgroundColor: Colors.amber,
+            ),
             backgroundColor: Colors.blueGrey,
             body: Body()));
   }
